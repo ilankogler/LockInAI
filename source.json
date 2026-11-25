@@ -1,0 +1,42 @@
+{
+  "name": "LockInAI builds",
+  "identifier": "com.example.gbhello.source",
+  "subtitle": "Workout and meal tracker",
+  "iconURL": "https://raw.githubusercontent.com/ilankogler/LockInAI/main/icon.png",
+  "tintColor": "#FF3D66",
+  "apps": [
+    {
+      "name": "LockInAI",
+      "bundleIdentifier": "com.example.gbhello",
+      "developerName": "LockInAI",
+      "subtitle": "Plan and track workouts and meals",
+      "localizedDescription": "Plan workouts and meals, track sets and nutrition, with Apple Health support.",
+      "iconURL": "https://raw.githubusercontent.com/ilankogler/LockInAI/main/icon.png",
+      "tintColor": "#FF3D66",
+      "category": "health",
+      "versions": [
+        {
+          "version": "1.0.10",
+          "buildVersion": "10",
+          "date": "2026-11-25T12:55:38Z",
+          "localizedDescription": "Rename app to LockInAI and publish to the LockInAI repo",
+          "downloadURL": "https://github.com/ilankogler/LockInAI/releases/download/v1.0.10/LockInAI.ipa",
+          "size": 1950598,
+          "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "com.apple.developer.healthkit",
+          "com.apple.developer.healthkit.access"
+        ],
+        "privacy": {
+          "NSHealthShareUsageDescription": "Shows your steps and active calories on the Today screen.",
+          "NSHealthUpdateUsageDescription": "Saves your finished workouts to Apple Health.",
+          "NSLocationWhenInUseUsageDescription": "Records where you trained, such as your gym, on each workout."
+        }
+      }
+    }
+  ],
+  "news": []
+}
