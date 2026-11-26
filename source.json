@@ -16,6 +16,15 @@
       "category": "health",
       "versions": [
         {
+          "version": "1.0.19",
+          "buildVersion": "19",
+          "date": "2026-11-26T15:33:26Z",
+          "localizedDescription": "Merge feature/coach-home-polish: coach language, fresh chat per launch, pinned message box",
+          "downloadURL": "https://github.com/ilankogler/LockInAI/releases/download/v1.0.19/LockInAI.ipa",
+          "size": 2555003,
+          "minOSVersion": "16.0"
+        },
+        {
           "version": "1.0.17",
           "buildVersion": "17",
           "date": "2026-11-26T14:33:32Z",
