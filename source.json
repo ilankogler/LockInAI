@@ -16,6 +16,15 @@
       "category": "health",
       "versions": [
         {
+          "version": "1.0.15",
+          "buildVersion": "15",
+          "date": "2026-11-26T08:17:33Z",
+          "localizedDescription": "Turn the Coach into a full AI agent and bring it to the home screen",
+          "downloadURL": "https://github.com/ilankogler/LockInAI/releases/download/v1.0.15/LockInAI.ipa",
+          "size": 2314296,
+          "minOSVersion": "16.0"
+        },
+        {
           "version": "1.0.14",
           "buildVersion": "14",
           "date": "2026-11-25T23:13:18Z",
